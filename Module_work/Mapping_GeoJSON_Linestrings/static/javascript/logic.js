@@ -31,7 +31,7 @@ let map = L.map('mapid', {
     layers: [light]
 })
 
-// Accessing the airport GeoJSON URL. Having this after the titleLayer ensures that the map gets loaded before the data is added to it
+// Accessing the Toronto GeoJSON URL. Having this after the titleLayer ensures that the map gets loaded before the data is added to it
 let torontoData = 'https://raw.githubusercontent.com/jdwrhodes/Mapping_Earthquakes/main/torontoRoutes.json'
 
 // Create a style for the lines.
